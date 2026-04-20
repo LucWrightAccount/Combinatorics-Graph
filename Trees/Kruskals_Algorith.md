@@ -12,7 +12,7 @@ Initial step: Let $F_0$ be the forest with vertices V(G) and no edges.
 
 Iteration Begins
 
-1. We have a forest $F_i \sube G$ with n vertices and i edges and n-i connected components
+1. We have a forest $F_i \sub G$ with n vertices and i edges and n-i connected components
 2. If i=n-1, then halt and output $F_i$ as a minimum-weight spanning tree.
 
 3. If $i \lt n-1$, then among all edges which connect two trees in $F_i$ pick $e_i+1$ whose weight is the smallest
